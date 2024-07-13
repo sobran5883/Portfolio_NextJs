@@ -48,9 +48,10 @@ function contact() {
                 <SelectContent>
                   <SelectGroup>
                     <SelectLabel>Select a service</SelectLabel>
-                    <SelectItem value="est">Web Development</SelectItem>
-                    <SelectItem value="cst">UI/UX Design</SelectItem>
-                    <SelectItem value="mst">Logo Design</SelectItem>
+                    <SelectItem value="cst">Full Stack Developer</SelectItem>
+                    <SelectItem value="mst">Frontend Developer</SelectItem>
+                    <SelectItem value="pst">ReactJs Developer</SelectItem>
+                    <SelectItem value="qst">NextJs Developer</SelectItem>
                   </SelectGroup>
                 </SelectContent>
               </Select>

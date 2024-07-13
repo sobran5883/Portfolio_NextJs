@@ -5,7 +5,7 @@ import { SiTailwindcss, SiNextdotjs, SiNodedotjs } from "react-icons/si";
 
 const about={
   title:'About me',
-  description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad tenetur quaerat perspiciatis architecto ducimus ullam.',
+  description: 'I am a passionate frontend developer with a talent for creating elegant and user-centric digital experiences. Proficient in React.js, Tailwind CSS, and MongoDB, I excel in building responsive, dynamic web applications. My background in computer science and hands-on project experience enable me to deliver high-quality solutions that delight users and drive business success.',
   info:[
     {
       fieldName:"Name",
@@ -20,43 +20,34 @@ const about={
       fieldValue:"2+"
     },
     {
-      fieldName:"Skype",
-      fieldValue:"sobran03"
-    },
-    {
       fieldName:"Nationality",
       fieldValue:"India"
+    },
+    {
+      fieldName:"Languages",
+      fieldValue:"English, Hindi"
     },
     {
       fieldName:"Email",
       fieldValue:"sobran0054@gmail.com"
     },
-    {
-      fieldName:"Languages",
-      fieldValue:"English, Hindi"
-    }
   ]
 }
 
 const experience={
   icon:'/assets/resume/badge.svg',
   title:'My experience',
-  description:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad tenetur quaerat perspiciatis architecto ducimus ullam.',
+  description:'With a strong background in web development, I have consistently delivered high-quality digital solutions, enhancing user experiences and driving business growth.',
   items:[
     {
-      company:"Tech Solution Inc.",
-      position:"Full Stack Developer",
-      duration:"2023 - Present"
+      company:"IET GDSC",
+      position:"Frontend developer",
+      duration:"sept-oct/2023"
     },
     {
-      company:"Web Design Studio",
-      position:"Front-End Developer Intern",
-      duration:"Summer 2021"
-    },
-    {
-      company:"E-commerc Startup",
-      position:"Freelance Web Developer",
-      duration:"2020 - 2021"
+      company:"Ricoz private limited",
+      position:"ReactJs developer (Inter)",
+      duration:"Nov/23 to June/24 "
     }
   ]
 }
@@ -64,7 +55,7 @@ const experience={
 const education={
   icon:'/assets/resume/cap.svg',
   title:'My education',
-  description:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad tenetur quaerat perspiciatis architecto ducimus ullam.',
+  description:'I have a solid academic foundation in computer science and engineering, with a specialization in artificial intelligence, CSE(AI).',
   items:[
     {
       institute:"IET, Lucknow",
@@ -81,7 +72,7 @@ const education={
 
 const skills={
   title:'My skills',
-  description:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad tenetur quaerat perspiciatis architecto ducimus ullam.',
+  description:'Proficient in frontend technologies such as React.js, Next.js, and Tailwind CSS, with experience in state management using Redux. Skilled in backend development with Node.js, Express.js, and MongoDB. Adept in UI/UX design principles and responsive design, using tools like Figma and Adobe XD.',
   skillList:[
     {
       icon:<FaHtml5/>,
