@@ -62,11 +62,6 @@ const education={
       degree:"BTech. CSE-(AI)",
       duration:"2021 - 2025"
     },
-    {
-      institute:"Udemy",
-      degree:"Full Stack Developer",
-      duration:"2022 - 2023"
-    }
   ]
 }
 

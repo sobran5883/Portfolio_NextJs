@@ -1,3 +1,5 @@
+"use client"
+import { Typewriter } from 'react-simple-typewriter';
 import {Button} from "@/components/ui/button";
 import {FiDownload} from 'react-icons/fi';
 
@@ -17,7 +19,17 @@ const Home =()=>{
               Hello I'm <br /> <span className="text-accent">Sobran Rajak</span>
             </h1>
             <p className="max-w-[500px] mb-9 text-white/80">
-            I specialize in creating elegant and user-centric digital experiences. I transform ideas into responsive, dynamic web applications that delight users.
+              <span>
+                <Typewriter
+                  words={['I specialize in creating elegant and user-centric digital experiences.', 'I transform ideas into responsive, dynamic web applications that delight users.']}
+                  loop={true}
+                  cursor
+                  cursorStyle='|'
+                  typeSpeed={50}
+                  deleteSpeed={50}
+                  delaySpeed={3000}
+                />
+              </span>
             </p>
             <div className="flex flex-col xl:flex-row items-center gap-8">
               <a href="/resume.pdf" download className="uppercase flex items-center gap-2">
