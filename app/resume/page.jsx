@@ -46,7 +46,7 @@ const experience={
     },
     {
       company:"Ricoz private limited",
-      position:"ReactJs developer (Inter)",
+      position:"ReactJs developer (Internship)",
       duration:"Nov/23 to June/24 "
     }
   ]

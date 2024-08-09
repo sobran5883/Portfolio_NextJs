@@ -36,13 +36,13 @@ const projects=[
   },
   {
     num: "03",
-    category:"frontend",
+    category:"Fullstack Project",
     title:"project 3",
-    description:"A platform where users can dynamically add their own projects.",
-    stack:[{name:"React.js"}, {name:"Tailwind.css"}],
-    image:'/assets/work/thumb3.jpg',
-    live:"https://funny-swan-431006.netlify.app/",
-    github:"https://github.com/sobran5883/Project-Dashboard",
+    description:"X-Clone is a social platform where users can upload images and news. Others can engage by liking and commenting on posts, fostering a community of interaction and sharing.",
+    stack:[{name:"Next.js"}, {name:"Tailwind.css"},{name:"Firebase"},{name:"MongoDB"},{name:"Node.js"}],
+    image:'/assets/work/thumb6.png',
+    live:"https://x-next-pi.vercel.app/",
+    github:"https://github.com/sobran5883/x-next",
   },
   {
     num: "04",
@@ -57,12 +57,22 @@ const projects=[
   {
     num: "05",
     category:"Fullstack Project",
-    title:"project 3",
+    title:"project 5",
     description:"I developed an MVP website for a painting service, enabling users to contact them easily. The site features a simple contact form and essential information about the services offered.",
     stack:[{name:"React.js"}, {name:"Tailwind.css"},{name:"Node.js"},{name:"MongoDB"}],
     image:'/assets/work/thumb5.jpg',
     live:"https://painter-1z66.onrender.com/",
     github:"https://github.com/sobran5883/painter",
+  },
+  {
+    num: "06",
+    category:"frontend",
+    title:"project 6",
+    description:"A platform where users can dynamically add their own projects.",
+    stack:[{name:"React.js"}, {name:"Tailwind.css"}],
+    image:'/assets/work/thumb3.jpg',
+    live:"https://funny-swan-431006.netlify.app/",
+    github:"https://github.com/sobran5883/Project-Dashboard",
   },
 ]
 
@@ -93,7 +103,7 @@ const Work=()=>{
               </ul>
               <div className="border border-white/20"></div>
               <div className="flex items-center gap-4">
-                <Link href={project.live}>
+                <Link href={project.live} target="_blank">
                    <TooltipProvider delayDuration={100}>
                     <Tooltip>
                       <TooltipTrigger className="w-[70px] h-[70px] rounded-full bg-white/5 flex justify-center items-center group">
