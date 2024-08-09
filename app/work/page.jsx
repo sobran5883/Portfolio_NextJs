@@ -40,7 +40,7 @@ const projects=[
     title:"project 3",
     description:"X-Clone is a social platform where users can upload images and news. Others can engage by liking and commenting on posts, fostering a community of interaction and sharing.",
     stack:[{name:"Next.js"}, {name:"Tailwind.css"},{name:"Firebase"},{name:"MongoDB"},{name:"Node.js"}],
-    image:'/assets/work/thumb6.png',
+    image:'/assets/work/thumb6.jpg',
     live:"https://x-next-pi.vercel.app/",
     github:"https://github.com/sobran5883/x-next",
   },
