@@ -48,6 +48,11 @@ const experience={
       company:"Ricoz private limited",
       position:"ReactJs developer (Internship)",
       duration:"Nov/23 to June/24 "
+    },
+    {
+      company:"Nasya Software Technologies",
+      position:"Full Stack developer (Internship)",
+      duration:"Jan/23 to Current"
     }
   ]
 }
