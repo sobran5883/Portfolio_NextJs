@@ -7,7 +7,7 @@ import {FiDownload} from 'react-icons/fi';
 import Social from "@/components/Social";
 import Photo from "@/components/Photo";
 import Stats from "@/components/Stats";
-import VoiceChat from './voiceComponent/page';
+import VoiceChat from '@/app/voiceComponent/page';
 
 const Home =()=>{
   return(
