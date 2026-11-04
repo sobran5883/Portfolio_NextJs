@@ -40,20 +40,20 @@ const experience={
   description:'With a strong background in web development, I have consistently delivered high-quality digital solutions, enhancing user experiences and driving business growth.',
   items:[
     {
-      company:"IET GDSC",
-      position:"Frontend developer",
-      duration:"sept-oct/2023"
+      company:"Kotech Solutions",
+      position:"Full Stack developer (MERN)",
+      duration:"Apr/25 to Current"
+    },
+    {
+      company:"Nasya Software Technologies",
+      position:"Full Stack developer (Internship)",
+      duration:"Jan/25 to Mar/25"
     },
     {
       company:"Ricoz private limited",
       position:"ReactJs developer (Internship)",
       duration:"Nov/23 to June/24 "
     },
-    {
-      company:"Nasya Software Technologies",
-      position:"Full Stack developer (Internship)",
-      duration:"Jan/23 to Current"
-    }
   ]
 }
 

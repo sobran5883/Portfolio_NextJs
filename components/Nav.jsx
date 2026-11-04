@@ -21,8 +21,8 @@ const links=[
         path:"/work",
     },
     {
-        name:"certificates",
-        path:"/certificates",
+        name:"achievements",
+        path:"/achievements",
     },
     {
         name:"contact",
